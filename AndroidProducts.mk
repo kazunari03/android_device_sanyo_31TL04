@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/full_31TL04.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/full_BEJ.mk

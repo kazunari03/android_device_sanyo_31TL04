@@ -35,9 +35,9 @@ PRODUCT_PROPERTY_OVERRIDES := \
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
-$(call inherit-product, device/sanyo/31TL04/device.mk)
+$(call inherit-product, device/sanyo/BEJ/device.mk)
 
-PRODUCT_NAME := full_31TL04
-PRODUCT_DEVICE := 31TL04
+PRODUCT_NAME := full_BEJ
+PRODUCT_DEVICE := BEJ
 PRODUCT_BRAND := benesse
-PRODUCT_MODEL := 31TL04
+PRODUCT_MODEL := BEJ

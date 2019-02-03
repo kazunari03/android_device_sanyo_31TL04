@@ -15,14 +15,14 @@
 #
 
 PRODUCT_COPY_FILES := \
-	device/sanyo/31TL04/init.rc:root/init.rc \
-	device/sanyo/31TL04/init.freescale.rc:root/init.freescale.rc \
-	device/sanyo/31TL04/init.freescale.usb.rc:root/init.freescale.usb.rc \
-	device/sanyo/31TL04/ueventd.freescale.rc:root/ueventd.freescale.rc \
-	device/sanyo/31TL04/ts_calibrator:root/sbin/ts_calibrator \
-	device/sanyo/31TL04/keylayout/Benesse.kl:system/usr/keylayout/Benesse.kl \
-	device/sanyo/31TL04/keylayout/Rohm-CTP-BU21023GUL.idc:system/usr/idc/Rohm-CTP-BU21023GUL.idc \
-        device/sanyo/31TL04/vold.fstab.SDcard:system/etc/vold.fstab \
+	device/sanyo/BEJ/init.rc:root/init.rc \
+	device/sanyo/BEJ/init.freescale.rc:root/init.freescale.rc \
+	device/sanyo/BEJ/init.freescale.usb.rc:root/init.freescale.usb.rc \
+	device/sanyo/BEJ/ueventd.freescale.rc:root/ueventd.freescale.rc \
+	device/sanyo/BEJ/ts_calibrator:root/sbin/ts_calibrator \
+	device/sanyo/BEJ/keylayout/Benesse.kl:system/usr/keylayout/Benesse.kl \
+	device/sanyo/BEJ/keylayout/Rohm-CTP-BU21023GUL.idc:system/usr/idc/Rohm-CTP-BU21023GUL.idc \
+        device/sanyo/BEJ/vold.fstab.SDcard:system/etc/vold.fstab \
 	frameworks/base/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
 	frameworks/base/data/etc/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
         frameworks/base/data/etc/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
